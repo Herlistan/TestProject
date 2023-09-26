@@ -81,6 +81,7 @@ public class MyList
                 next = m_array[i + 1];
                 m_array[i] = next;
                 m_array[i + 1] = current;
+                break;
             }   
         }
         int[] newArray = new int[3];
@@ -104,6 +105,7 @@ public class MyList
                 next = m_array[i + 1];
                 m_array[i] = next;
                 m_array[i + 1] = current;
+                break;
             }
         }
         int[] newArray = new int[3];
